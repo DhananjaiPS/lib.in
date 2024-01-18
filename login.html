@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Box</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 22px;
+            min-height: 100vh;
+            
+
+            background-image: linear-gradient(pink, rgb(252, 152, 169), rgb(248, 91, 117), rgb(239, 82, 199));
+        }
+
+        .loginbox form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 10px;
+        }
+
+        .loginbox form input {
+            width: 250px;
+            margin-top: 20px;
+            height: 40px;
+            border-radius: 13px;
+            border: none;
+            padding: 0px 22px ;
+            font-size: 1.2rem;
+            font-family: monospace;
+            font-weight: 800;
+            font-display: ;
+
+        }
+
+        .loginbox form button {
+            margin-top: 20px;
+
+        }
+
+        .loginbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .span1 {
+            padding: 40px;
+            height: 60px;
+            /* width: 100px */
+            /* height: 15px;
+            width: 100px; */
+            border-radius: 13px;
+            display: flex;
+            gap: 23px;
+        }
+        .span1 button {
+            width: 100px;
+            border: none;
+            font-family: monospace;
+            font-size: 1.2rem;
+            font-weight: 900;
+            color: aliceblue;
+            background-color: black;
+            border-radius: 13px;
+        }
+        .span2 {
+            padding: 40px;
+            height: 60px;
+            /* width: 100px */
+            /* height: 15px;
+            width: 100px; */
+            border-radius: 13px;
+            display: flex;
+            gap: 23px;
+        }
+        .span2 button {
+            width: 220px;
+            border: none;
+            font-family: monospace;
+            font-size: 1.2rem;
+            font-weight: 900;
+            color: aliceblue;
+            background-color: black;
+            border-radius: 13px;
+        }
+
+
+        .text {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+
+        }
+
+        .img {
+            background: url(img1.jpg);
+            width: 250px;
+            height: 250px;
+            background-position: center;
+            background-size: contain;
+            border-radius: 100%;
+            position: relative;
+            top: -300px;
+            right: -800px;
+
+
+        }
+        .pos{
+            position: relative;
+            top: -80px;
+            
+        }
+        .span2 a{
+            text-decoration: none;
+            color: aliceblue;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="text">
+
+        <h3>Login <i class="fa-solid fa-user-lock"></i></h3>
+    </div>
+    <div class="loginbox">
+        <form>
+            <span><input type="text" class="">&nbsp;<i class="fa-solid fa-user"></i> &nbsp;</span>
+            <span><input type="password">&nbsp;<i class="fa-solid fa-lock"></i> &nbsp;</span>
+            <span class="span1"><button type="submit" name="submit">Submit</button>
+                <button type="reset" name="reset">Reset</button></span>
+            <span class="span2 pos"><button type="submit" name="submit"><a href="LoginForm.html">Registration</a></button></span>
+                
+        </form>
+    </div>
+    <div class="img"></div>
+
+</body>
+...........
+
+</html>
